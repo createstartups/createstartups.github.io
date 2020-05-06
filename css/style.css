@@ -737,7 +737,7 @@ ul .faq .accordion__body li {
   margin-right: auto;
 }
 
-.next {
+.next, .previously {
   font-family: Segoe UI, Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 1.2em;
@@ -3561,9 +3561,22 @@ button:hover {
   width: 1px
 }
 
-.next h3 {
+.next h3, .previously h3 {
   padding-bottom: 2em;
 }
+
+.guest {
+  clear: both;
+  margin-bottom: 1em;
+}
+
+.guest a {
+  font-family: Segoe UI Light, Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-decoration: underline;
+  color: #aaa;
+}
+
 
 .guest .description {
   text-align: left;
@@ -3587,7 +3600,7 @@ button:hover {
 .guest .name {
   font-family: Segoe UI Bold, Arial, Helvetica, sans-serif;
   font-size: 1.5em;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 .guest .position {
@@ -3598,3 +3611,4 @@ button:hover {
   margin-top: 1em;
   font-size: 0.8em;
 }
+
