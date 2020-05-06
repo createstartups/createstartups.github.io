@@ -701,6 +701,7 @@ ul .faq .accordion__body li {
   font-size: 6em;
   text-align: center;
   letter-spacing: -.07em;
+  text-shadow: 5px 5px 10px black;
 }
 
 .conversations {
