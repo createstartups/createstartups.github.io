@@ -3605,12 +3605,13 @@ button:hover {
 }
 
 .guest .watch {
-  padding-top: 1em;
+  padding-top: .5em;
+  padding-bottom: .3em;
 }
 
 .guest .watch a {
   font-family: Segoe UI Bold, Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.0em;
 }
 
 .guest .position {
