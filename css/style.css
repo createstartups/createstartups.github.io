@@ -3568,6 +3568,7 @@ button:hover {
 
 .guest {
   clear: both;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -3587,7 +3588,7 @@ button:hover {
 
 .guest .date {
   font-family: Segoe UI Bold, Arial, Helvetica, sans-serif;
-  margin-bottom: 0;
+  margin-top: 1em;
   padding-bottom: 0;
 }
 
@@ -3601,17 +3602,17 @@ button:hover {
 .guest .name {
   font-family: Segoe UI Bold, Arial, Helvetica, sans-serif;
   font-size: 1.5em;
-  margin-top: 0.5em;
 }
 
 .guest .watch {
   padding-top: .5em;
-  padding-bottom: .3em;
+  font-size: 0.6em;
 }
 
 .guest .watch a {
-  font-family: Segoe UI Bold, Arial, Helvetica, sans-serif;
-  font-size: 1.0em;
+  font-family: Segoe UI, Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: white;
 }
 
 .guest .position {
@@ -3623,3 +3624,6 @@ button:hover {
   font-size: 0.8em;
 }
 
+.guest .photo {
+  padding-bottom: 1em;
+}
