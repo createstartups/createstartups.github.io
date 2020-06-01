@@ -714,6 +714,9 @@ ul .faq .accordion__body li {
   text-align: center;
   color: #aaa;
   margin-bottom: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+  line-height: 1.3em;
 }
 
 .next a {
