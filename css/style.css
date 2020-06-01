@@ -708,6 +708,14 @@ ul .faq .accordion__body li {
   min-height: 600px;
 }
 
+.conversations .note {
+  font-family: Segoe UI Bold, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 2em;
+}
+
 .next a {
   font-family: Segoe UI, Arial, Helvetica, sans-serif;
   text-decoration: underline;
